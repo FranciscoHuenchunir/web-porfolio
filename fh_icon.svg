@@ -1,0 +1,30 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular con gradiente -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Círculo de fondo -->
+  <circle cx="50" cy="50" r="45" fill="url(#bgGradient)" filter="url(#shadow)"/>
+  
+  <!-- Letra F -->
+  <g fill="#e0e0e0">
+    <path d="M25 25 L25 75 L30 75 L30 52 L42 52 L42 47 L30 47 L30 30 L45 30 L45 25 Z" 
+          stroke="#e0e0e0" stroke-width="0.5" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Letra H -->
+  <g fill="#e0e0e0">
+    <path d="M55 25 L55 75 L60 75 L60 52 L72 52 L72 75 L77 75 L77 25 L72 25 L72 47 L60 47 L60 25 Z" 
+          stroke="#e0e0e0" stroke-width="0.5" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Brillo sutil -->
+  <ellipse cx="40" cy="35" rx="8" ry="6" fill="#3b82f6" opacity="0.2"/>
+</svg>
