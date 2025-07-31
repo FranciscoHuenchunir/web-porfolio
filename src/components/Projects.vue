@@ -8,9 +8,9 @@ interface Project {
 }
 const proyects: Project = [
   {
-    title: 'Proyecto en Desarrollo',
+    title: 'Distro Advisor',
     description:
-      'Descripción del proyecto en desarrollo utilizando arquitectura de microservicios.',
+      'Distro Advisor es una aplicación que te ayuda a descubrir distribuciones de Linux según tus preferencias. Permite explorar y comparar distros basadas en características como arquitectura, entorno de escritorio, sistema base, y más.',
     technologies: ['Vue', 'Spring Boot', 'Go', 'Microservicios'],
     status: 'En proceso',
     repositoryLink: '#',
